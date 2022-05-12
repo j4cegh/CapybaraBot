@@ -14,9 +14,7 @@ export class Capybara extends Command {
             .setTimestamp();
         
         message.channel.send({
-            embeds: [
-                embed
-            ]
+            embeds: [ embed ]
         });
     }
 }

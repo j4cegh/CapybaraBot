@@ -22,9 +22,7 @@ export class BaraProcess extends Command {
             .setTimestamp();
 
         message.channel.send({
-            embeds: [
-                embed
-            ]
+            embeds: [ embed ]
         });
 
         CapybaraBot.baraProcesses.push(message.channel.id);

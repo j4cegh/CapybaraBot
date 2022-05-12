@@ -12,9 +12,7 @@ export class Help extends Command {
             .addField("baraprocess (dev/approved)", "Starts a bara process (sends a random capybara image every few minutes)");
         
         message.channel.send({
-            embeds: [
-                embed
-            ]
+            embeds: [ embed ]
         });
     }
 }

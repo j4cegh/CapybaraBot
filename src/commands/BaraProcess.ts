@@ -1,5 +1,5 @@
 import { Message, MessageEmbed, TextChannel } from "discord.js";
-import { Command } from "./Command";
+import { Command } from "../Command";
 import { CapybaraBot } from "../CapybaraBot";
 
 export class BaraProcess extends Command {

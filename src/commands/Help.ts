@@ -1,5 +1,5 @@
 import { Message, MessageEmbed } from "discord.js";
-import { Command } from "./Command";
+import { Command } from "../Command";
 
 export class Help extends Command {
     run(message: Message<boolean>, args: string[]) : void {

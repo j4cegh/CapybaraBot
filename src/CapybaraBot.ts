@@ -1,6 +1,6 @@
 import { TextChannel, MessageEmbed } from "discord.js";
 import * as fs from "fs";
-import { Command } from './commands/Command';
+import { Command } from './Command';
 import { Capybara } from './commands/Capybara';
 import { BaraProcess } from './commands/BaraProcess';
 import { Help } from './commands/Help';

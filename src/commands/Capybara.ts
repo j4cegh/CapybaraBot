@@ -1,5 +1,5 @@
 import { Message, MessageEmbed } from "discord.js";
-import { Command } from "./Command";
+import { Command } from "../Command";
 import { CapybaraBot } from "../CapybaraBot";
 
 export class Capybara extends Command {
